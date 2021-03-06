@@ -8,8 +8,9 @@
 
 # jest instalation and configuration
 
-- run: npm i -D jest@23.6.0 -E
+- run: npm i -D -E jest@23.6.0
 - run: ./node_modules/.bin/jest
 - add "script" in package.json: "test": "jest"
 - add "env" in .eslintrc.json: "jest": true
 - run: npm test
+- run: npm i -D -E supertest@3.3.0
