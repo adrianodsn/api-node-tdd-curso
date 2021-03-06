@@ -14,3 +14,4 @@
 - add "env" in .eslintrc.json: "jest": true
 - run: npm test
 - run: npm i -D -E supertest@3.3.0
+- add "script" in package.json: "secure-mode": "jest --watch"
