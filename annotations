@@ -3,9 +3,13 @@
 - run: npm i -D eslint
 - run: ./node_modules/.bin/eslint --init
 - run: command test: ./node_modules/.bin/eslint src/** test/** --fix
-- add script in package.json: "lint": "eslint src/** test/** --fix"
+- add "script" in package.json: "lint": "eslint src/** test/** --fix"
 - run: npm run lint
 
 # jest instalation and configuration
 
 - run: npm i -D jest@23.6.0 -E
+- run: ./node_modules/.bin/jest
+- add "script" in package.json: "test": "jest"
+- add "env" in .eslintrc.json: "jest": true
+- run: npm test
